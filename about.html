@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Me</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+      
+    nav{
+        width:90%;
+        margin:25px auto;
+        background:#ffb6d9;
+        border-radius:50px;
+        padding:15px 35px;
+
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+    }
+
+    .back-btn {
+    background: #ffb6d9;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+    }
+
+    .back-btn:hover {
+    background: #ff9ac9;
+    transform: translateY(-2px);
+    }
+
+    .btn{
+        text-decoration:none;
+        padding:17px 35px;
+        border-radius:40px;
+        font-weight:600;
+        transition:0.3s;
+    }
+
+    .secondary{
+        border:2px solid #ff7eb8;
+        color:#ff4fa0;
+    }
+
+    .secondary:hover{
+        background:#ffd9eb;
+    }
+
+    .logo{
+        font-size:24px;
+        font-weight:700;
+        color:#ffffff;
+    }
+
+    .nav-links a{
+        text-decoration:none;
+        color: #333;
+        margin-left:25px;
+        font-weight:100;
+
+    }
+
+    .nav-links a:hover{
+        color:#ff4fa0;
+    }
+
+
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family:'Poppins', sans-serif;
+    }
+
+    body{
+        background:#fff8fb;
+    }
+
+    .about{
+        width:90%;
+        padding-top: 60px;
+        margin:auto;
+        min-height:70vh;
+
+        display:flex;
+        align-items:center;
+        justify-content:center;
+    }
+
+    .about-container{
+        max-width:700px;
+        text-align:center;
+        position:relative;
+    }
+
+    .about-container h1{
+        font-size:60px;
+        color:#ff5c8a;
+        margin-bottom:20px;
+    }
+
+    .about-container p{
+        font-size:18px;
+        line-height:1.8;
+        color:#555;
+        margin-bottom:40px;
+    }
+
+    .project-btn{
+        display:inline-block;
+
+        background:#ff7ea8;
+        color:white;
+
+        text-decoration:none;
+
+        padding:18px 45px;
+
+        border-radius:50px;
+
+        font-size:18px;
+        font-weight:600;
+
+        transition:0.3s;
+    }
+
+    .button-group{
+        display:flex;
+        gap:20px;
+        justify-content:center;
+        align-items:center;
+    }
+
+    .project-btn:hover{
+        transform:translateY(-5px);
+    }
+
+
+    @media(max-width:900px){
+
+        .hero{
+            flex-direction:column-reverse;
+            text-align:center;
+            padding-top:40px;
+        }
+
+        h1{
+            font-size:42px;
+        }
+
+        .description{
+            margin:auto;
+            margin-bottom:30px;
+        }
+
+        .buttons{
+            justify-content:center;
+        }
+
+        .circle{
+            width:280px;
+            height:280px;
+        }
+
+        .profile{
+            width:260px;
+        }
+    }
+
+    @media (max-width: 768px){
+
+nav{
+    width:95%;
+    margin:15px auto;
+    padding:15px 15px;
+    border-radius:35px;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+    position: relative;
+    z-index: 9999;
+}
+
+.logo{
+    font-size:1.5rem;
+    color:#ff4f9d;
+    text-align:center;
+    margin-bottom:15px;
+}
+
+.nav-links{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+
+    width:90%;
+    max-width:300px;
+
+    padding:18px 15px;
+
+    background:#fff;
+    border-radius:30px;
+}
+
+.nav-links a{
+    font-size:0.85rem;
+    color:#333;
+    margin-left:0;
+}
+
+.hero{
+    flex-direction:column-reverse;
+    text-align:center;
+    min-height: auto;
+}
+
+h1{
+    font-size:2rem;
+}
+
+.about{
+    margin-top: -138px;
+}
+
+.description{
+    font-size:0.95rem;
+    max-width:100%;
+}
+
+.buttons{
+    flex-direction:column;
+    align-items:center;
+}
+
+.btn{
+    width:220px;
+}
+
+.profile{
+    width:230px;
+    left:0;
+    transform:none;
+}
+
+.circle{
+    width:260px;
+    height:260px;
+}
+
+.card1{
+    top:20px;
+    right:0;
+    font-size:12px;
+}
+
+.card2{
+    bottom:30px;
+    left:0;
+    font-size:12px;
+}
+
+
+
+.nav-links{
+    background:#ffd9ea;
+    border-radius:20px; 
+    padding:12px 20px;
+    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:18px;
+
+    width:85%;
+    max-width:350px;
+}
+
+
+.nav-links a{
+    text-decoration:none;
+    color:#333;
+    font-size:0.9rem;
+    font-weight:200;
+}
+    }
+
+
+</style>
+</head>
+
+<body>
+
+<nav>
+
+    <div class="logo">My Creative Space</div>
+
+    <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projsnanis.html">Projects</a>
+        <a href="contacts.html">Contact</a>
+    </div>
+
+</nav>
+
+
+<section class="about">
+
+<div class="about-container">
+
+<div class="circle"></div>
+
+<h1>About Me</h1>
+
+<p>
+Hi! I'm Ahllanis Mateo Manzo, currently a 2nd-year IT student. I aspire to be a game 
+and web UI/UX designer in the near future. I enjoy designing and creating art in various
+forms while learning new creative skills.
+</p>
+
+<div class="button-group">
+    <a href="index.html" class="project-btn">
+    Back
+    </a>
+
+    <a href="moreme.html" class="btn secondary">
+    Want to know more about me?
+    </a>
+</div>
+
+</div>
+
+</section>
+
+</body>
+</html>

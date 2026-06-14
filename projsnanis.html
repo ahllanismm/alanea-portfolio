@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Projects</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+    nav{
+        width:90%;
+        margin:25px auto;
+        background:#ffb6d9;
+        border-radius:50px;
+        padding:15px 35px;
+
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+    }
+
+    .back-container{
+        margin-top: 40px;
+        text-align: center;
+}
+
+    .back-btn{
+        display:inline-block;
+        text-decoration:none;
+        background:#ff7ea8;
+        color:white;
+        padding:12px 28px;
+        border-radius:30px;
+        font-weight:bold;
+        transition:0.3s;
+    }
+
+    .back-btn:hover{
+        background:#ff5f96;
+}
+
+    .logo{
+        font-size:24px;
+        font-weight:700;
+        color:#ffffff;
+    }
+
+    .project-link{
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .nav-links a{
+        text-decoration:none;
+        color:#333;
+        margin-left:25px;
+        font-weight:100;
+    }
+
+    .nav-links a:hover{
+        color:#ff4fa0;
+    }
+
+
+    body{
+    background:#fff;
+    padding:60px;
+}
+
+/* taytelll */
+
+.projects-title{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.projects-title p{
+    color:#ff4fa0;
+    font-weight:bold;
+}
+
+.projects-title h1{
+    color:#666;
+    margin-top:10px;
+}
+
+/* cards */
+
+.projects-container{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.project-card{
+    width:300px;
+    background:white;
+    border-radius:25px;
+    overflow:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.project-card:hover{
+    transform:translateY(-8px);
+}
+
+.project-card img{
+    width:100%;
+    height:180px;
+    object-fit:cover;
+}
+
+.project-info{
+    padding:20px;
+}
+
+.project-info h3{
+    color:#ff7eb8;
+    margin-bottom:10px;
+}
+
+.project-info p{
+    color:#666;
+    line-height:1.5;
+}
+
+
+    @media(max-width:900px){
+
+        .hero{
+            flex-direction:column-reverse;
+            text-align:center;
+            padding-top:40px;
+        }
+
+        h1{
+            font-size:42px;
+        }
+
+        .description{
+            margin:auto;
+            margin-bottom:30px;
+        }
+
+        .buttons{
+            justify-content:center;
+        }
+
+        .circle{
+            width:280px;
+            height:280px;
+        }
+
+        .profile{
+            width:260px;
+        }
+    }
+
+    @media (max-width: 768px){
+
+nav{
+    width:200%;
+    max-width: 390px;
+    margin-top: 300px;
+    margin:15px auto;
+    padding:13px 20px 13px;
+    border-radius:35px;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.logo{
+    font-size:1.5rem;
+    color:#ff4f9d;
+    text-align:center;
+    margin-bottom:13px;
+    font-weight: 700;
+
+    white-space: nowrap;
+}
+
+.nav-links{
+    background:#fff5fa;
+    border-radius:25px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:12px;
+
+    width:90%;
+    max-width:none;
+    margin: 0 auto;
+
+    padding:15px 10px;
+}
+
+
+.nav-links a{
+    font-size:0.85rem;
+    color:#333;
+    margin-left:0;
+}
+
+.hero{
+    flex-direction:column-reverse;
+    text-align:center;
+    padding-top:20px;
+}
+
+h1{
+    font-size:1.3rem;
+    font-weight: 50px;
+}
+
+.description{
+    font-size:0.95rem;
+    max-width:100%;
+}
+
+.buttons{
+    flex-direction:column;
+    align-items:center;
+}
+
+.btn{
+    width:220px;
+}
+
+.profile{
+    width:230px;
+    left:0;
+    transform:none;
+}
+
+.circle{
+    width:260px;
+    height:260px;
+}
+
+.card1{
+    top:20px;
+    right:0;
+    font-size:12px;
+}
+
+.card2{
+    bottom:30px;
+    left:0;
+    font-size:12px;
+}
+
+
+
+.nav-links{
+    background:#ffd9ea;
+    border-radius:20px; 
+    padding:12px 20px;
+    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:18px;
+
+    width:85%;
+    max-width:350px;
+}
+
+
+
+.nav-links a{
+    text-decoration:none;
+    color:#333;
+    font-size:0.9rem;
+    font-weight:300;
+}
+
+body{
+    padding: 20px 0;
+}
+
+nav{
+    width: 95%;
+    margin: 15px auto;
+}
+
+.projects-title,
+.projects-container,
+.back-container{
+    width: 100%;
+    max-width: 420px;
+    margin: 0 auto;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.projects-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.project-link{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.project-card{
+    width: 90%;
+    max-width: 320px;
+}
+
+    }
+   
+   
+
+
+
+
+
+</style>
+</head>
+
+<body>
+
+    
+<nav>
+
+    <div class="logo">My Creative Space</div>
+
+    <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projsnanis.html">Projects</a>
+        <a href="contacts.html">Contact</a>
+    </div>
+
+</nav>
+
+<div class="projects-title">
+    <p>Here are my </p>
+    <h1>Recent Projects</h1>
+</div>
+
+<div class="projects-container">
+
+
+<a href="gameui.html" class="project-link">
+    <div class="project-card">
+        <img src="images/gameui.jpg">
+        <div class="project-info">
+            <h3>Game UI Design</h3>
+            <p>Collection of game interface concepts and menu designs.</p>
+        </div>
+    </div>
+</a>
+
+<a href="galleria.html" class="project-link">
+    <div class="project-card">
+        <img src="images/graphic.jpg">
+        <div class="project-info">
+            <h3>Graphic Design</h3>
+            <p>Creative posters, social media graphics, and layouts.</p>
+        </div>
+    </div>
+</a>
+
+<a href="artworks.html" class="project-link">
+    <div class="project-card">
+        <img src="images/arttt.jpg">
+        <div class="project-info">
+            <h3>Artworks</h3>
+            <p>Digital illustrations and personal creative projects.</p>
+        </div>
+    </div>
+</a>
+
+</div>
+
+<div class="back-container">
+    <a href="index.html" class="back-btn"> Back</a>
+</div>
+
+
+<div class="dot dot1"></div>
+<div class="dot dot2"></div>
+
+</body>
+</html>
